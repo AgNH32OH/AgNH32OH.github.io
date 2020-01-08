@@ -1,0 +1,160 @@
+<html>
+<head>
+    <link rel="shortcut icon" href="img/son.png">
+    <title>LOCATION</title>
+
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        //Скрыть PopUp при загрузке страницы
+        PopUpHide();
+    });
+    //Функция отображения PopUp
+    function PopUpShow(){
+        $("#popup1").show();
+    }
+    //Функция скрытия PopUp
+    function PopUpHide(){
+        $("#popup1").hide();
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--background: rgb(0, 0, 0, 0.7);-->
+    <input type="checkbox" id="toggle-1">
+    <div class="base" ; style="margin-top: 0px; margin-bottom: 0px;">
+
+        <p class="preHigh" style="text-align: center; padding-left:100px; padding-right: 40px;">Нас можно найти здесь:</p>
+
+        <center style=" margin-top: -20px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3443.853854796686!2d37.93090619256042!3d59.120223918582944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46afb7b3b89dc133%3A0x3270485ad5f20a5d!2z0KPRh9C10LHQvdGL0Lkg0LrQvtGA0L_Rg9GBIOKEliAxINCn0JPQoyDQuNC8LiDQkdC40LvQu9C4INCl0LDRgNC40L3Qs9GC0L7QvdCw!5e0!3m2!1sru!2sru!4v1578442693641!5m2!1sru!2sru"
+                    width="1000" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </center>
+
+        <footer>
+            <table>
+                <tr>
+                    <td width="180">
+                        <img src="img/men.png" width="220" height="220">
+                    </td>
+                    <td width="70">
+                        <div class="footxt">
+                            <a target="_blank" ; href="https://vk.com/agnh32oh"><img src="img/vk.png" width="70" height="70"></a><br />
+                            <a target="_blank" ; href="https://mailto:igoln199@mail.ru"><img src="img/mail.png" width="70" height="70"></a><br />
+                            <a target="_blank" ; href="https://www.facebook.com/profile.php?id=100006871454108&ref=bookmarks"><img src="img/face.png" width="70" height="70"></a>
+                        </div>
+
+                    </td>
+                    <td width="*" ; height="220">
+                        <ul>
+                            <li>
+                                Фактор внешности
+                                <ul type="square">
+                                    <li><a href="#klst">Классический стиль</a></li>
+                                    <li><a href="#rost">Романтический стиль</a></li>
+                                    <li><a href="#ekst">Экстровагантный стиль</a></li>
+                                    <li><a href="#spst">Спортивный стиль</a></li>
+                                    <li><a href="#dest">Деловой стиль</a></li>
+                                    <li><a href="#pr">Прическа, цвет волос</a></li>
+                                    <li><a href="#sl">Сложение</a></li>
+                                    <li><a href="#fzpr">Физическая привлекательность</a></li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </td>
+                    <td width="*" ; height="220">
+                        <ul>
+                            <li>
+                                Фактор взгляда
+                                <ul type="square">
+                                    <li><a href="#vz">Взгляд</a></li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </td>
+                    <td width="*" ; height="220">
+                        <ul>
+                            <li>
+                                Фактор внешности
+                                <ul type="square">
+                                    <li><a href="#poim">Поведенческий имидж</a></li>
+                                    <li><a href="#mi">Мимика</a></li>
+                                    <li><a href="#zhe">Жесты</a></li>
+                                    <li><a href="#po">Позы</a></li>
+                                </ul>
+
+                            </li>
+                        </ul>
+                    </td>
+
+                </tr>
+            </table>
+        </footer>
+
+        <div class="b-popup" id="popup1" style="z-index: 1000;">
+            <div class="b-popup-content">
+                <a href="javascript:PopUpHide()">
+                    <img class="ximg" src="img/x.png" width="30" height="30" style="box-shadow: 0px 0px 10px #000; background-color: aliceblue;"
+                         onmouseover="this.src = 'img/xl.png'; this.width = 30; this.height = 30;"
+                         onmouseout="this.src = 'img/x.png'; this.width = 30; this.height = 30;" />
+                </a>
+                <br /><br />
+                <p class="normal" ; style="background-color: rgba(0,0,0,0.8)">Над сайтом работал:<br />Cтудент группы 1ПИб-01-21оп<br />Игольницин Евгений<br />Тел: 8-921-069-08-58<br />Почта: igoln199@mail.ru</p>
+
+            </div>
+        </div>
+
+        <div align="left" ; style="width:60px; height:100%; background-color:#affdcf; float:left; position:fixed; top: 0px; left: 0px; z-index: 1001">
+            <br />
+            <a href="IgolnicinKR.html">
+                <img src="img/28.png" width="60" height="60"
+                     onmouseover="this.src = 'img/28-1.png'; this.width = 240; this.height = 60;"
+                     onmouseout="this.src = 'img/28.png'; this.width = 60; this.height = 60;" />
+            </a>
+            <br /><br />
+            <a href="Information.html" ; title="Информация о сайте" ;>
+                <img src="img/info.png" width="60" height="60"
+                     onmouseover="this.src = 'img/info-1.png'; this.width = 240; this.height = 60;"
+                     onmouseout="this.src = 'img/info.png'; this.width = 60; this.height = 60;" />
+            </a>
+            <br /><br />
+
+            <label for="toggle-1">
+                <img src="img/15.png" width="60" height="60"
+                     onmouseover="this.src = 'img/15-1.png'; this.width = 240; this.height = 60;"
+                     onmouseout="this.src = 'img/15.png'; this.width = 60; this.height = 60;" />
+            </label>
+            <br /><br />
+
+            <a href="where.html" ; title="Хотите узнать где нас найти?" ;>
+                <img src="img/where.png" width="60" height="60"
+                     onmouseover="this.src = 'img/where-1.png'; this.width = 240; this.height = 60;"
+                     onmouseout="this.src = 'img/where.png'; this.width = 60; this.height = 60;" />
+            </a>
+            <br /><br />
+            <a href="javascript:PopUpShow()">
+                <img src="img/33.png" width="60" height="60"
+                     onmouseover="this.src = 'img/33-1.png'; this.width = 240; this.height = 60;"
+                     onmouseout="this.src = 'img/33.png'; this.width = 60; this.height = 60;" />
+            </a>
+            <br /><br />
+            <a href="1ИгольницинИстория.doc" ; title="Cкачать документ со всей информацией для этого сайта?" ;>
+                <img src="img/38.png" width="60" height="60"
+                     onmouseover="this.src = 'img/38-1.png'; this.width = 240; this.height = 60;"
+                     onmouseout="this.src = 'img/38.png'; this.width = 60; this.height = 60;" />
+            </a>
+            <br /><br />
+            <a href="#" ; title="Вернуться к началу" style=" position: absolute; top:90%; left:0px;">
+                <img src="img/up.png" width="60" height="60">
+            </a>
+
+        </div>
+
+</body>
+</html>

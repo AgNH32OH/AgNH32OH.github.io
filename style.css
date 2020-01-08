@@ -1,0 +1,159 @@
+footer {
+    min-width: 1020px;
+    background: #1F3F3F;
+    position: absolute;
+    left: 60px;
+    right: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100% - 60px;
+    height: 220px;
+    padding: 20px;
+    
+}
+
+input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+label {
+    /*-webkit-appearance: push-button;
+            -moz-appearance: button;*/
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ .base {
+    background: url(img/snow2.gif);
+}
+
+table {
+    border-collapse: collapse;
+    /*border: 1px solid grey;*/
+    vertical-align: top;
+}
+
+td {
+    border: 0px;
+    vertical-align: top;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 0;
+}
+
+th {
+    column-span: all;
+    text-align: center;
+    font-weight: normal;
+}
+
+hr {
+    margin-top: -45px;
+    background-color: aliceblue;
+    height: 5px;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    left: 60px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+    background: url(img/wall2.jpg) center / cover no-repeat;
+    filter: blur(10px);
+}
+
+body {
+    background-attachment: fixed;
+    background: linear-gradient(#4800ff, #00ffff, #4cff00, #2F4F4F);
+}
+
+* {
+    font-family: 'Arial','Calibri';
+    color: aliceblue;
+}
+
+.ximg {
+    position: absolute;
+    margin-left: 560px;
+    margin-top: 10px;
+}
+
+.base {
+    margin-left: 60px;
+    padding-top: 0px;
+    width: 100% - 60px;
+    min-width: 1020px;
+}
+
+.high {
+    font-size: 70px;
+    text-align: center;
+}
+
+.preHigh {
+    font-size: 40px;
+    text-align: left;
+}
+
+.normal {
+    font-size: 30px;
+    text-align: left;
+}
+
+.footxt {
+    font-family: 'Roboto', 'B52', 'Times New Roman';
+    font-size: 25px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.b-popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    margin-left: -10px;
+}
+
+.b-popup .b-popup-content {
+    margin: 40px auto 0px auto;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    /*background-color:#2F4F4F;*/
+    background-image: url(img/space.jpg);
+    background-size: 110%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.holder { /*надпись на картинках*/
+    position: relative;
+    width: 400px;
+    height: 266px;
+}
+
+.block {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+    /*height:100%;*/
+    right: 0;
+    background: rgb(0, 0, 0, 0.7);
+    display: none;
+}
+
+.holder:hover .block {
+    display: block;
+}
